@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.hello-world"
+        id        = "com.phonegap.gbg"
         version   = "2.2.0">
-    <name>Test App</name>
+    <name>GBG Driver Challenge</name>
 
     <description>
-        Sample to learn to build this.
+        GBG Driver Challenge
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-       James Via PhoneGap Team
+    <author href="http://greenbuttongamer.com" email="jsturtevant@gmail.com">
+       James Sturtevant
     </author>
 
     <feature name="http://api.phonegap.com/1.0/device" />
