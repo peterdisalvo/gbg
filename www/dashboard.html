@@ -1,0 +1,89 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Dashboard</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- don't need to include css or js in subsequent files because 
+             jquery Mobile loads all pages into one page -->
+    </head>
+    <body>
+        <div data-role="page" id="dashboard">
+            <div data-role="content">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a data-role="button" href="#page1">
+                            My Summary
+                        </a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a data-role="button" href="#page1">
+                            New Drive
+                        </a>
+                    </div>
+                </div>
+
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Challenges
+                    </li>
+                    <li data-theme="c">
+                        <a href="#" data-transition="slide">
+                            <div class="current-challenge">
+                                <img src="img/ic_contact_picture.png">
+                                <p>Zac</p>
+                                <div class="win-loss">
+                                    <div class="win">0 Wins</div>
+                                    <div class="losses">0 Loses</div>
+                                </div>
+                                <p class="challenge-state in-progress">In Progress</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            <div class="current-challenge">
+                                <p>James</p>
+                                <img src="img/menu_profile.png">
+                                 <div class="win-loss">
+                                    <div class="win">0 Wins</div>
+                                    <div class="losses">0 Loses</div>
+                                </div>
+                                <p class="challenge-state drive">Drive</p>
+                            </div>
+                        </a>
+                    </li>
+                     <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            <div class="current-challenge">
+                                <p>Pete</p>
+                                <img src="img/menu_profile.png">
+                                 <div class="win-loss">
+                                    <div class="win">0 Wins</div>
+                                    <div class="losses">0 Loses</div>
+                                </div>
+                                <p class="challenge-state waiting">Waiting</p>
+                            </div>
+                        </a>
+                    </li>
+                     <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            <div class="current-challenge">
+                                <p>Adam</p>
+                                <img src="img/menu_profile.png">
+                                 <div class="win-loss">
+                                    <div class="win">0 Wins</div>
+                                    <div class="losses">0 Loses</div>
+                                </div>
+                                <p class="challenge-state loss">You Lost! Pay up.</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    </body>
+</html>
