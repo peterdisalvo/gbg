@@ -2,6 +2,7 @@ root {
     display: block;
 }
 
-.current-challenge {
+.current-challenge li {
     display: inline;
+    list-style:none;
 }
